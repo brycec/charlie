@@ -70,10 +70,10 @@ function _init()
  add(sprites,p1)
 
  ctrls = {
-  {x=86,l='♥',v=rnd(100)+16},
+  {x=85,l='♥',v=rnd(100)+16},
   {x=100,l='<⧗',v=0},
   {x=112,l='>',v=rnd(28)+4},
-  {x=122,l='✽',v=rnd(31)+1}
+  {x=123,l='✽',v=rnd(31)+1}
  }
  if saved then
   for i=1,#ctrls do
